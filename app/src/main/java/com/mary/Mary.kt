@@ -1,4 +1,4 @@
-package com.start.mary
+package com.mary
 
 import android.content.Context
 import android.widget.Toast
@@ -30,7 +30,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.google.accompanist.systemuicontroller.SystemUiController
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
-import com.start.R
 
 //Color
 object MaryColor {
