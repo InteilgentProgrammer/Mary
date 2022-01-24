@@ -1,6 +1,5 @@
 package com.mary
 // Hi this is the file i put into every thing i learn
-
 //the commands in Window power shell
 /*
 * cd / : to out from directory ex: PS C:\Users\MAHMOUD> cd /
@@ -10,3 +9,4 @@ package com.mary
 * git clone : to Download from github or others control version system ex: PS C:\Users\MAHMOUD\Downloads> git clone https://github.com/InteilgentProgrammer/GitRepo.git
 *
 * */
+// End
