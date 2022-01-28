@@ -1,4 +1,4 @@
-package com.mary.lab
+package com.mary.lab.others
 
 const val AR = 1
 const val EN = 0

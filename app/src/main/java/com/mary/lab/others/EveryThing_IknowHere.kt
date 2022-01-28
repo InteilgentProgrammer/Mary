@@ -1,4 +1,4 @@
-package com.mary.lab
+package com.mary.lab.others
 // Hi this is the file i put into every thing i learn
 //the commands in Window power shell
 /*

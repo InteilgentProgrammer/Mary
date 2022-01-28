@@ -1,4 +1,4 @@
-package com.mary.lab
+package com.mary.lab.others
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

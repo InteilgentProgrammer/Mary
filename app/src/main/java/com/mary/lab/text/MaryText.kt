@@ -21,7 +21,7 @@ fun MaryText(
     modifier: Modifier = Modifier,
     text: String = "Mary",
     textColor: Color = Color.Unspecified,
-    fontSize: Int = 25,
+    fontSize: Int = 18,
     fontStyle: FontStyle? = null,
     fontWeight: FontWeight? = null,
     fontFamily: FontFamily? = null,

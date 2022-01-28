@@ -9,24 +9,19 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Shape
-import com.mary.lab.theme
+import com.mary.lab.others.theme
 
 
 @Composable
 fun MaryButton(
     modifier: Modifier = Modifier,
-    idTheme: Int = 0,
     onClick: () -> Unit,
     enabled: Boolean = true,
     interactionSource: MutableInteractionSource = remember { MutableInteractionSource() },
     elevation: ButtonElevation? = ButtonDefaults.elevation(),
     shape: Shape = MaterialTheme.shapes.small,
     border: BorderStroke? = null,
-    colors: ButtonColors = ButtonDefaults.buttonColors(
-        backgroundColor = theme[idTheme].primary,
-        contentColor = theme[idTheme].onPrimary,
-
-        ),
+    colors: ButtonColors = ButtonDefaults.buttonColors(),
     contentPadding: PaddingValues = ButtonDefaults.ContentPadding,
     content: @Composable RowScope.() -> Unit
 ) {

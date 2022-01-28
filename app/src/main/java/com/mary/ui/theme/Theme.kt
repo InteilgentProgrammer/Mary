@@ -6,6 +6,9 @@ import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Shape
+private val MaryTheme  = lightColors(
+    primary = Black
+)
 
 private val DarkColorPalette = darkColors(
     primary = Purple200,
@@ -34,9 +37,9 @@ fun MaryTheme(
     content: @Composable () -> Unit
 ) {
     val colors = if (darkTheme) {
-        DarkColorPalette
+        MaryTheme
     } else {
-        LightColorPalette
+        MaryTheme
     }
 
     MaterialTheme(

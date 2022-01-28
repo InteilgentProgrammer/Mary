@@ -1,4 +1,4 @@
-package com.mary.lab
+package com.mary.lab.others
 
 import androidx.compose.ui.graphics.Color
 import com.mary.ui.theme.*
