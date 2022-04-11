@@ -1,9 +1,9 @@
-package com.mary
+import androidx.compose.runtime.*
 
-import androidx.compose.runtime.Composable
-import com.mary.lab.text.MaryText
+import com.google.gson.Gson
+
 
 @Composable
 fun Laboratory() {
-    MaryText(text = "Gold")
+    var gson = Gson()
 }
